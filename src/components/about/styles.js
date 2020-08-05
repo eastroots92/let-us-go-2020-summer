@@ -32,7 +32,7 @@ export default {
       flex: 0 0 50%;
       justify-content: center;
       align-items: flex-start;
-      padding-right: 32px;
+      padding-right: 72px;
     }
   `,
   Title: styled.h2`
