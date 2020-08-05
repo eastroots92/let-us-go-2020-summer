@@ -1,6 +1,6 @@
 html {
   font-size: 18px;
-  font-family: 'Noto Sans Korean', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
@@ -30,7 +30,7 @@ body {
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   overflow-x: hidden !important;
-  font-family: 'Noto Sans Korean', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -49,23 +49,23 @@ time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Noto Sans Korean', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif;
   vertical-align: baseline;
 }
 
 *::selection {
-  background: #00c68e;
-  color: #fff;
+  background: #4affcf;
+  color: #222;
 }
 
 *::-moz-selection {
-  background: #00c68e;
-  color: #fff;
+  background: #4affcf;
+  color: #222;
 }
 
 *::-webkit-selection {
-  background: #00c68e;
-  color: #fff;
+  background: #4affcf;
+  color: #222;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -117,7 +117,7 @@ button {
   border: 0;
   color: inherit;
   /* cursor: default; */
-  font-family: 'NOTO Sans Korean', sans-serif;
+  font-family: 'Spoqa Han Sans', sans-serif;
   line-height: normal;
   overflow: visible;
   padding: 0;

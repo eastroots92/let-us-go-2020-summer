@@ -4,10 +4,14 @@ import React from "react";
 export const Hero = () => {
   return (
     <S.Header>
-      <S.Logo />
-      <S.Title>2020 SUMMER</S.Title>
-      <S.SubTitle>2020.08.15 LIVE STREAMING</S.SubTitle>
-      <S.SubTitle>13:00 ~ 18:00</S.SubTitle>
+      <S.SubTitle>2020 SUMMER</S.SubTitle>
+      <S.Title>
+        iOS DEVELOPERS' SEMINAR
+      </S.Title>
+      <S.Description>LIVE STREAMING</S.Description>
+      <S.Contents>
+        2020년 8월 15일 13:00~18:00
+      </S.Contents>
     </S.Header>
   )
 }
