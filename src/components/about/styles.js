@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export default {
   Section: styled.section`
-    padding: 100px 16px;
+    padding: 54px 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     
     @media only screen and (min-width: 450px) {
-      padding: 140px 24px;
+      padding: 100px 24px;
     }
     @media only screen and (min-width: 768px) {
       padding: 140px 48px;
