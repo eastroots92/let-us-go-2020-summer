@@ -5,6 +5,7 @@ import { Hero } from "../components/hero"
 import { FloatingButton } from "../components/floating-button"
 import { About } from "../components/about"
 import { Speakers } from "../components/speakers"
+import { Timetable } from "../components/timetable"
 
 export default () => {
   return (
@@ -13,6 +14,7 @@ export default () => {
       <Hero />
       <About />
       <Speakers />
+      <Timetable />
       <FloatingButton />
     </>
   )
