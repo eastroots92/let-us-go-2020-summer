@@ -17,17 +17,17 @@ export default {
     margin-bottom: 47px;
   `,
   Title: styled.h1 `
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 900;
     letter-spacing: -0.15px;
     color: #000000;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   `,
   SubTitle: styled.p`
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: -0.8px;
     color: #000000;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   `,
 };

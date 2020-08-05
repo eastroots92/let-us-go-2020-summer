@@ -1,9 +1,15 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Noto Sans Korean', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
+}
+
+@media only screen and (max-width: 450px)  {
+  html {
+    font-size: 16px;
+  }
 }
 
 * {
