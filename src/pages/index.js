@@ -7,6 +7,7 @@ import { About } from "../components/about"
 import { Speakers } from "../components/speakers"
 import { Timetable } from "../components/timetable"
 import { JoinUs } from "../components/join-us"
+import { Footer } from "../components/footer"
 
 export default () => {
   return (
@@ -18,6 +19,7 @@ export default () => {
       <Timetable />
       <FloatingButton />
       <JoinUs />
+      <Footer />
     </>
   )
 }

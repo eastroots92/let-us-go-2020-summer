@@ -19,6 +19,7 @@ export default {
     bottom: 34px;
     text-align: center;
     transition: all 150ms ease-in;
+    z-index: 9999999;
     
     &:hover {
       transform: scale(1.05);

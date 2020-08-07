@@ -7,6 +7,7 @@ export default {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background: #ffffff;
     
     @media only screen and (min-width: 450px) {
       padding: 100px 24px;

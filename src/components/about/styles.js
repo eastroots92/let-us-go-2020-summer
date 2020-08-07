@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export default {
   Section: styled.section`
+    width: 100%;
     padding: 54px 16px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    background: #ffffff;
     
     @media only screen and (min-width: 450px) {
       padding: 100px 24px;
