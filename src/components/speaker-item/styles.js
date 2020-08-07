@@ -22,7 +22,7 @@ export default {
     margin-left: -46px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
     border-radius: 14px;
   `,
   NameWrap: styled.div`
