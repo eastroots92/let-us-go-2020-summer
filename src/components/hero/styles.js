@@ -148,10 +148,10 @@ export default {
     right: 100%;
     z-index: 10;
     transform: translateZ(0);
-    animation: ${aniMoveX2} 4.5s linear 0s infinite alternate, ${aniMoveY2} 5.5s linear 0s infinite alternate, ${aniSpin} 6s linear 0s infinite;
+    animation: ${aniMoveX2} 4.5s linear 0s infinite alternate, ${aniMoveY2} 3s linear 0s infinite alternate, ${aniSpin} 6s linear 0s infinite;
      
     @media only screen and (min-width: 768px) {
-      animation: ${aniMoveX2} 9s linear 0s infinite alternate, ${aniMoveY2} 10.5s linear 0s infinite alternate, ${aniSpin} 8s linear 0s infinite;
+      animation: ${aniMoveX2} 9s linear 0s infinite alternate, ${aniMoveY2} 7s linear 0s infinite alternate, ${aniSpin} 8s linear 0s infinite;
     }
   `,
   Badge3: styled.img`
