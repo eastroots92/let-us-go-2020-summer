@@ -11,6 +11,7 @@ export default {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    transform-style: preserve-3d;
     
     & + & {
       margin-top: 8px;
@@ -26,6 +27,7 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    transform: translateZ(20px);
   `,
   Icon: styled.img`
     width: 44px;
@@ -39,6 +41,8 @@ export default {
     letter-spacing: normal;
     color: #222222;
     margin-bottom: 0.5rem;
+    transform: translateZ(25px);
+    padding: 0 8px;
   `,
   Description: styled.p`
     word-break: keep-all;
@@ -46,5 +50,7 @@ export default {
     line-height: 1.43;
     font-weight: normal;
     color: #000000;
+    transform: translateZ(15px);
+    padding: 0 8px;
   `
 }

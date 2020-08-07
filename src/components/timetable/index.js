@@ -54,7 +54,7 @@ export const Timetable = () => (
   <S.Section>
     <S.Title>TIMETABLE</S.Title>
     <S.Wrap>
-      {timetableList.map((item) => (<TimetableItem item={item} key={item.label} />))}
+      {timetableList.map((item) => (<TimetableItem item={item} key={item.title} />))}
     </S.Wrap>
   </S.Section>
 )

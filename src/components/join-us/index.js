@@ -20,7 +20,7 @@ export const JoinUs = () => (
   <S.Section>
     <S.Title>JOIN US</S.Title>
     <S.Wrap>
-      { joinUsList.map((item) => <JoinUsItem item={item} />) }
+      { joinUsList.map((item) => <JoinUsItem item={item} key={item.title} />) }
     </S.Wrap>
   </S.Section>
 )
