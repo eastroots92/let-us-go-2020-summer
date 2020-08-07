@@ -3,7 +3,7 @@ import S from './styles';
 
 export const Footer = () => (
   <S.Footer>
-    <S.Link href='' >
+    <S.Link href='https://iosdevkor.github.io/let_us_go_2019_fall_review/' target='_blank'>
       지난 let us: Go! 보기
     </S.Link>
     <S.Contents>

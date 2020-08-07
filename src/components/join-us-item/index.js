@@ -20,7 +20,7 @@ export const JoinUsItem = ({item}) => {
   }, [])
 
   return (
-    <S.Item href={link} ref={tilt}>
+    <S.Item href={link} ref={tilt} target='_blank'>
       <S.IconWrap>
         <S.Icon src={typeIcon} alt={`${type} icon`} />
         <S.Icon src={iconRightArrow} alt='right arrow icon' />
