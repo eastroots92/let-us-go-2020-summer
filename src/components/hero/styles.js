@@ -8,7 +8,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 0 1rem;
     @media only screen and (min-width: 450px) {
       align-items: center;
@@ -19,7 +19,6 @@ export default {
     font-family: 'Gilroy', sans-serif;
     font-weight: 300;
     color: #f5f5f5;
-    margin-top: 10vh;
     
     @media only screen and (min-width: 450px) {
       margin-top: 0;
