@@ -10,6 +10,8 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 0 1rem;
+    position: relative;
+    
     @media only screen and (min-width: 450px) {
       align-items: center;
     }
