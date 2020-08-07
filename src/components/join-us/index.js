@@ -18,9 +18,16 @@ const joinUsList = [
 
 export const JoinUs = () => (
   <S.Section>
-    <S.Title>JOIN US</S.Title>
+    <S.Title
+      data-sal="slide-up"
+      data-sal-delay="100"
+      data-sal-duration="600"
+      data-sal-easing="ease"
+    >
+      JOIN US
+    </S.Title>
     <S.Wrap>
-      { joinUsList.map((item) => <JoinUsItem item={item} key={item.title} />) }
+      { joinUsList.map((item, index) => <JoinUsItem item={item} index={index} key={item.title} />) }
     </S.Wrap>
   </S.Section>
 )

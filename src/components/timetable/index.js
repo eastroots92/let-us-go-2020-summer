@@ -52,9 +52,16 @@ const timetableList = [
 
 export const Timetable = () => (
   <S.Section>
-    <S.Title>TIMETABLE</S.Title>
+    <S.Title
+      data-sal="slide-up"
+      data-sal-delay="100"
+      data-sal-duration="600"
+      data-sal-easing="ease"
+    >
+      TIMETABLE
+    </S.Title>
     <S.Wrap>
-      {timetableList.map((item) => (<TimetableItem item={item} key={item.title} />))}
+      {timetableList.map((item, index) => (<TimetableItem item={item} index={index} key={item.title} />))}
     </S.Wrap>
   </S.Section>
 )

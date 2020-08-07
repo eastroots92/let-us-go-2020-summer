@@ -5,7 +5,7 @@ import iconMail from '../../resources/mail.svg';
 import iconRightArrow from '../../resources/arrow.svg';
 import VanillaTilt from "vanilla-tilt";
 
-export const JoinUsItem = ({item}) => {
+export const JoinUsItem = ({ item, index }) => {
   const { type, title, description, link } = item;
   const typeIcon = type === 'kakao' ? iconKakao : iconMail;
   const tilt = useRef(null);
@@ -20,7 +20,15 @@ export const JoinUsItem = ({item}) => {
   }, [])
 
   return (
-    <S.Item href={link} ref={tilt} target='_blank'>
+    <S.Item
+      href={link}
+      ref={tilt}
+      target='_blank'
+      data-sal="slide-up"
+      data-sal-delay={ (index + 1) * 150 }
+      data-sal-duration="600"
+      data-sal-easing="ease"
+    >
       <S.IconWrap>
         <S.Icon src={typeIcon} alt={`${type} icon`} />
         <S.Icon src={iconRightArrow} alt='right arrow icon' />

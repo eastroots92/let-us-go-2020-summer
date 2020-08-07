@@ -36,9 +36,16 @@ const speakerList = [
 
 export const Speakers = () => (
   <S.Section>
-    <S.Title>Speakers</S.Title>
+    <S.Title
+      data-sal="slide-up"
+      data-sal-delay="100"
+      data-sal-duration="600"
+      data-sal-easing="ease"
+    >
+      Speakers
+    </S.Title>
     <S.Wrap>
-      { speakerList.map((speaker) => (<SpeakerItem speaker={speaker} key={speaker.name} />))}
+      { speakerList.map((speaker, index) => (<SpeakerItem speaker={speaker} index={index} key={speaker.name} />))}
     </S.Wrap>
 
   </S.Section>
