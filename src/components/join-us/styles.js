@@ -14,8 +14,6 @@ export default {
     }
     @media only screen and (min-width: 768px) {
       padding: 140px 0;
-      max-width: 768px;
-      margin: 0 auto;
     }
  `,
   Wrap: styled.div`
@@ -27,6 +25,8 @@ export default {
     @media only screen and (min-width: 768px) {
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr;
+      max-width: 768px;
+      margin: 0 auto;
     }
   `,
   Title: styled.h2`

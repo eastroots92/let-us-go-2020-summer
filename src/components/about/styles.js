@@ -4,10 +4,6 @@ export default {
   Section: styled.section`
     width: 100%;
     padding: 54px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     background: #ffffff;
     
     @media only screen and (min-width: 450px) {
@@ -15,6 +11,15 @@ export default {
     }
     @media only screen and (min-width: 768px) {
       padding: 140px 48px;
+    }  
+ `,
+  Wrap: styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    @media only screen and (min-width: 768px) {
       max-width: 768px;
       margin: 0 auto;
       flex-direction: row;
@@ -22,7 +27,7 @@ export default {
     @media only screen and (min-width: 1120px) {
       max-width: 920px;
     }
- `,
+  `,
   ContentsWrap: styled.div`
     display: flex;
     flex-direction: column;
