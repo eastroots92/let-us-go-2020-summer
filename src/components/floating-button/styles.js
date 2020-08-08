@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export default {
   Button: styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 240px;
     height: 56px;
     border-radius: 28px;
@@ -30,5 +33,10 @@ export default {
       right: 40px;
       left: inherit;
     }
+  `,
+  Icon: styled.img`
+    width: 31px;
+    height: 25px;
+    margin-right: 6px;
   `
 }
