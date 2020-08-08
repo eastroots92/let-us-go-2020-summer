@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import "../normalize.css";
 import { Head } from "../components/head";
 import { Hero } from "../components/hero"
-import { FloatingButton } from "../components/floating-button"
 import { About } from "../components/about"
 import { Speakers } from "../components/speakers"
 import { Timetable } from "../components/timetable"
@@ -40,7 +39,6 @@ export default () => {
       <About />
       <Speakers />
       <Timetable />
-      <FloatingButton />
       <JoinUs />
       <Footer />
     </>
