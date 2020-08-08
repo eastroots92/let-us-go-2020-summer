@@ -18,5 +18,11 @@ module.exports = {
         exitEventName: 'sal:out', // Exit event name
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-157600471-2',
+      },
+    },
   ],
 }
