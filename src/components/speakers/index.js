@@ -9,6 +9,8 @@ import gomtigimIcon from '../../resources/gom.png';
 import nosujinIcon from '../../resources/no.jpg';
 import dogilIcon from '../../resources/do.png';
 import genetoryIcon from '../../resources/genetory.png';
+import sungIcon from '../../resources/sung.jpeg';
+import anyIcon from '../../resources/any.jpeg';
 
 const speakerList = [
   {
@@ -70,6 +72,16 @@ const speakerList = [
     profile: genetoryIcon,
     email: 'imgenetory@gmail.com',
     summary: '전적검색은 OP.GG',
+  }, {
+    name: '엉덩숭아',
+    company: '비바리퍼블리카',
+    profile: sungIcon,
+    summary: '최신기술들 다 놓치고 있어 괴로운 iOS개발자입니다...',
+  }, {
+    name: 'AnyObject',
+    company: '비바리퍼블리카',
+    profile: anyIcon,
+    summary: '개발자라는 직업이 존재하는 한 계속 할 겁니다.',
   }
 ]
 
