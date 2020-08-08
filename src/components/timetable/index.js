@@ -10,7 +10,7 @@ const timetableList = [
   },
   {
     label: '13:15',
-    title: 'Hello, Swift UI!',
+    title: 'Hello, SwiftUI!',
     badge: '야곰',
   },
   {

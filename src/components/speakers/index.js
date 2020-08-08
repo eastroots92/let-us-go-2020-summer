@@ -18,7 +18,7 @@ const speakerList = [
     email: 'keywindow@naver.com',
     blog: 'blog.yagom.net',
     link: 'yagom.net',
-    summary: '안녕하세요, 야곰입니다',
+    summary: '안녕하세요, 야곰입니다.',
   }, {
     name: 'Johnny',
     company: 'Coupang',
