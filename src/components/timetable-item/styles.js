@@ -31,13 +31,23 @@ export default {
     color: #000000;
     margin-bottom: 14px;
   `,
-  Badge: styled.span`
+  BadgeWrap: styled.div`
+    width: 100%;
+    display: flex;
+  `,
+  Badge: styled.p`
+    display: inline-block;
     border-radius: 12px;
     background-color: #a8fae4;
     font-size: 0.875rem;
     line-height: 0.875rem;
     font-weight: normal;
     color: #000000;
-    padding: 0 6px;
+    padding: 4px 6px;
+    margin: 2px 4px;
+    
+    &:first-child {
+      margin: 2px 4px 2px 0;
+    }
   `,
 }

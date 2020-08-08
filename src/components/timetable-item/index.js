@@ -14,7 +14,9 @@ export const TimetableItem = ({ item }) => {
       <S.Label>{label}</S.Label>
       <S.ContentsWrap>
         <S.Title>{title}</S.Title>
-        { badge && <S.Badge>{badge}</S.Badge> }
+        { badge.length > 0 && badge.map((item, index) => (
+          <S.Badge key={index}>{item}</S.Badge>
+        )) }
       </S.ContentsWrap>
     </S.Item>
   )
