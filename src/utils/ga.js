@@ -16,7 +16,5 @@ export const GA_ACTION = {
 }
 
 export const GAClickEvent = (category, action = '', label = '') => (e) => {
-  e.preventDefault();
-
   sendGAEvent(category, action, label);
 }
