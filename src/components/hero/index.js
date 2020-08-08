@@ -27,7 +27,7 @@ export const Hero = () => {
         data-sal-duration="800"
         data-sal-easing="ease"
       >
-        Let us: Go! SEMINAR
+        Let us: Go!
       </S.Title>
       <S.Description
         data-sal="slide-up"
@@ -45,6 +45,14 @@ export const Hero = () => {
       >
         2020년 8월 15일 13:00~18:00
       </S.Contents>
+      <S.SubContents
+        data-sal="slide-up"
+        data-sal-delay="700"
+        data-sal-duration="800"
+        data-sal-easing="ease"
+      >
+        라이브 영상 링크는 당일 게시 될 예정입니다.
+      </S.SubContents>
       <a
         href='https://github.com/eastroots92'
         target='_blank'

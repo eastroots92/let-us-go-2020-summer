@@ -175,20 +175,18 @@ export default {
     font-family: 'Gilroy', sans-serif;
     font-weight: 300;
     color: #f5f5f5;
-    
-    @media only screen and (min-width: 450px) {
-      margin-top: 0;
-    }
+    margin-bottom: 1.25rem;
+    margin-top: 10vh;
   `,
   Title: styled.h1`
-    font-size: 2.125rem;
+    font-size: 2.75rem;
     font-family: 'Gilroy', sans-serif;
     font-weight: 800;
     line-height: 1;
     letter-spacing: 2px;
     word-break: keep-all;
     color: #f5f5f5;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
     text-align: center;
     z-index: 5;
     
@@ -211,6 +209,15 @@ export default {
     line-height: 1.25;
     z-index: 5;
     color: #f5f5f5;
+    margin-bottom: 0.5rem;
+    margin-top: 10vh;
+  `,
+  SubContents: styled.p`
+    font-size: 0.875rem;
+    font-weight: normal;
+    line-height: 1.25;
+    z-index: 5;
+    color: #4affcf;
   `,
   Badge1: styled.img`
     width: 107px;
