@@ -22,6 +22,7 @@ export default {
     margin-left: -46px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
     border-radius: 14px;
   `,
@@ -46,6 +47,7 @@ export default {
     font-size: 0.75rem;
     color: #454545;
     line-height: 1.33;
+    min-height: 43px;
   `,
   LinkWrap: styled.div`
     display: flex;

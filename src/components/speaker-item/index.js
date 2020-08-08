@@ -36,7 +36,7 @@ export const SpeakerItem = ({ speaker, index  }) => {
             target='_blank'
             onClick={ GAClickEvent('스피커_이메일_링크', GA_ACTION.CLICK, name) }
           >
-            <img src={emailIcon} alt="이메일 아이콘"/>
+            <img src={emailIcon} alt="이메일 아이콘" width='18px' height='18px' />
           </S.Link>
           { git &&
             <S.Link
@@ -44,7 +44,7 @@ export const SpeakerItem = ({ speaker, index  }) => {
               target='_blank'
               onClick={ GAClickEvent('스피커_깃헙_링크', GA_ACTION.CLICK, name) }
             >
-              <img src={linkIcon} alt="링크 아이콘"/>
+              <img src={linkIcon} alt="링크 아이콘" width='18px' height='18px' />
             </S.Link>
           }
         </S.LinkWrap>
