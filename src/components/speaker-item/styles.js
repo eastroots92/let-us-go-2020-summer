@@ -46,5 +46,16 @@ export default {
     font-size: 0.75rem;
     color: #454545;
     line-height: 1.33;
-  `
+  `,
+  LinkWrap: styled.div`
+    display: flex;
+  `,
+  Link: styled.a`
+    width: 18px;
+    height: 18px;
+    
+    & + & {
+      margin-left: 4px;
+    }
+  `,
 }

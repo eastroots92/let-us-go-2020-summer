@@ -4,6 +4,7 @@ import iconKakao from '../../resources/kakaotalk.svg';
 import iconMail from '../../resources/mail.svg';
 import iconRightArrow from '../../resources/arrow.svg';
 import VanillaTilt from "vanilla-tilt";
+import { GA_ACTION, GAClickEvent } from "../../utils/ga"
 
 export const JoinUsItem = ({ item, index }) => {
   const { type, title, description, link } = item;
@@ -28,6 +29,7 @@ export const JoinUsItem = ({ item, index }) => {
       data-sal-delay={ (index + 1) * 150 }
       data-sal-duration="600"
       data-sal-easing="ease"
+      onClick={ GAClickEvent('조인어스_버튼', GA_ACTION.CLICK, type) }
     >
       <S.IconWrap>
         <S.Icon src={typeIcon} alt={`${type} icon`} />

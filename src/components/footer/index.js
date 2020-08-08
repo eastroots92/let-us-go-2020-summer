@@ -1,5 +1,6 @@
 import React from 'react';
 import S from './styles';
+import { GA_ACTION, GAClickEvent } from "../../utils/ga"
 
 export const Footer = () => (
   <S.Footer>
@@ -10,6 +11,7 @@ export const Footer = () => (
       data-sal-delay= "100"
       data-sal-duration="600"
       data-sal-easing="ease"
+      onClick={ GAClickEvent('푸터_버튼', GA_ACTION.CLICK, '지난링크 보기') }
     >
       지난 let us: Go! 보기
     </S.Link>
