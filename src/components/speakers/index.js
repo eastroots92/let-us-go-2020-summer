@@ -2,12 +2,12 @@ import React from 'react';
 import S from './styles';
 import { SpeakerItem } from "../speaker-item"
 import unnyoungIcon from '../../resources/unnnyong.jpeg';
-import hyunhoIcon from '../../resources/이현호.png';
-import yagomIcon from '../../resources/야곰.png';
+import hyunhoIcon from '../../resources/lee.png';
+import yagomIcon from '../../resources/ya.png';
 import johnnyIcon from '../../resources/Johnny.png';
-import gomtigimIcon from '../../resources/곰튀김.png';
-import nosujinIcon from '../../resources/노수진.jpg';
-import dogilIcon from '../../resources/도길참새.png';
+import gomtigimIcon from '../../resources/gom.png';
+import nosujinIcon from '../../resources/no.jpg';
+import dogilIcon from '../../resources/do.png';
 import genetoryIcon from '../../resources/genetory.png';
 
 const speakerList = [
