@@ -31,7 +31,7 @@ export const Hero = () => {
         data-sal-duration="800"
         data-sal-easing="ease"
       >
-        Let us: Go!
+        let us: Go!
       </S.Title>
       <S.Description
         data-sal="slide-up"
