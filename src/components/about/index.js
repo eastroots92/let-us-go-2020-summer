@@ -7,6 +7,7 @@ export const About = () => (
     <S.Wrap>
       <S.ContentsWrap>
         <S.Title
+          id='about'
           data-sal="slide-up"
           data-sal-delay="100"
           data-sal-duration="600"

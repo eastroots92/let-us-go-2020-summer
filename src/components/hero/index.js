@@ -8,6 +8,8 @@ import badgeIcon5 from '../../resources/mask.png';
 import { GA_ACTION, GAClickEvent } from "../../utils/ga"
 
 export const Hero = () => {
+
+
   return (
     <S.Header>
       <S.SubTitle
@@ -19,6 +21,7 @@ export const Hero = () => {
         2020 SUMMER
       </S.SubTitle>
       <S.Title
+        id="hero"
         data-sal="slide-up"
         data-sal-delay="200"
         data-sal-duration="800"

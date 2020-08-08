@@ -5,6 +5,7 @@ import { GA_ACTION, GAClickEvent } from "../../utils/ga"
 export const Footer = () => (
   <S.Footer>
     <S.Link
+      id='footer'
       href='https://iosdevkor.github.io/let_us_go_2019_fall_review/'
       target='_blank'
       data-sal="slide-up"

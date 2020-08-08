@@ -19,6 +19,7 @@ const joinUsList = [
 export const JoinUs = () => (
   <S.Section>
     <S.Title
+      id="joinUs"
       data-sal="slide-up"
       data-sal-delay="100"
       data-sal-duration="600"

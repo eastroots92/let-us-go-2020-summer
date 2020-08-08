@@ -76,6 +76,7 @@ const speakerList = [
 export const Speakers = () => (
   <S.Section>
     <S.Title
+      id='speakers'
       data-sal="slide-up"
       data-sal-delay="100"
       data-sal-duration="600"

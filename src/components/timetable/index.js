@@ -53,6 +53,7 @@ const timetableList = [
 export const Timetable = () => (
   <S.Section>
     <S.Title
+      id='timetable'
       data-sal="slide-up"
       data-sal-delay="100"
       data-sal-duration="600"
