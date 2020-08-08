@@ -21,7 +21,7 @@ const timetableList = [
   {
     label: '14:30',
     title: '패널토크 : 외국의 개발자 생활은 어떻습니까?',
-    badge: '',
+    badge: 'unnnyong 노수진 도길참새'
   },
   {
     label: '15:30',
@@ -41,7 +41,7 @@ const timetableList = [
   {
     label: '17:00',
     title: '패널토크 : 신입 개발자, 이런 사람 찾아요.',
-    badge: '',
+    badge: 'Genetory 엉덩숭아 AnyObject 클린트'
   },
   {
     label: '18:00',
