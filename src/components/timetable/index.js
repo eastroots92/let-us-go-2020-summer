@@ -44,7 +44,7 @@ const timetableList = [
     badge: '',
   },
   {
-    label: '17:00',
+    label: '18:00',
     title: '폐회사',
     badge: '',
   },

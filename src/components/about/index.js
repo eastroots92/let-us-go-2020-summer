@@ -1,5 +1,6 @@
 import React from 'react';
 import S from './styles';
+import aboutImage from '../../resources/mainImage.jpg';
 
 export const About = () => (
   <S.Section>
@@ -25,7 +26,7 @@ export const About = () => (
         </S.Contents>
       </S.ContentsWrap>
       <S.Image
-        src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png'
+        src={aboutImage}
         alt='let us: Go! 2019 iOS 단체 사진'
         data-sal="slide-up"
         data-sal-delay="300"
