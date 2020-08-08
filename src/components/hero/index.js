@@ -7,6 +7,8 @@ import badgeIcon4 from '../../resources/badge2.svg';
 import badgeIcon5 from '../../resources/mask.png';
 import { GA_ACTION, GAClickEvent } from "../../utils/ga"
 
+const downArrow = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAcCAYAAAAnbDzKAAAAAXNSR0IArs4c6QAAAQJJREFUWAnVmA0KgzAMRnuYndATeNjdo0vYAnHULkm/zFgo1Zqf90QYXWtq9N43mg+1VeqS2ZhxCEUPdpo8njTLSTDTh42Wvh8keIN31SglQVwaXjDfEnTHn81olJAgsBG88G7tR8ClEmY2c+Dhw8u9cTO5ExL5wyzhRKDMMsNygQUZWG9YIYcMvCe84EQmrVdaYSWT3iOzQWZt9Y5ayo/d3+DFBNkQWUv4TCuiMaKGCfYsaAVgJfeMJ7QfAYnkhOCsSR4gT6y1PyTOAmaJgcBEixgA+UwxGpeeNQ6+RDc7NdWGFxOHRJ03L/CyGiTqwhsk6sNPJO4DP5C4H/yXROq/fC/ZHeGCU7G+8wAAAABJRU5ErkJggg==';
+
 export const Hero = () => {
 
 
@@ -70,6 +72,15 @@ export const Hero = () => {
       ><S.Badge3 src={badgeIcon3} /></a>
       <S.Badge4 src={badgeIcon4} />
       <S.Badge5 src={badgeIcon5} />
+      <S.ArrowWrap
+        data-sal="slide-up"
+        data-sal-delay="700"
+        data-sal-duration="1000"
+        data-sal-easing="ease"
+      >
+        <span>내용 더보기</span>
+        <S.DownArrow src={downArrow}/>
+      </S.ArrowWrap>
     </S.Header>
   )
 }

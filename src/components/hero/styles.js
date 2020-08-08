@@ -1,5 +1,14 @@
 import styled, { keyframes } from "styled-components"
 
+const aniBounce = keyframes`
+ 0% {
+  transform: translateY(0);
+ }
+ 100% {
+   transform: translateY(5px);
+ }
+`;
+
 const aniSpin = keyframes`
   0% {
     transform: rotate(0) translateZ(0);
@@ -306,6 +315,26 @@ export default {
       display: block;
       animation: ${aniMoveX5} 10s linear 0s infinite alternate, ${aniMoveY5} 8s linear 0s infinite alternate, ${aniSpin} 11s linear 0s infinite;
     }
+  `,
+  ArrowWrap: styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  `,
+  DownArrow: styled.img`
+    margin-top: 8px;
+    width: 24px;
+    height: 12px;
+    animation: ${aniBounce} 0.5s infinite alternate;
   `,
 };
 
