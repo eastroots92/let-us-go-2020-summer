@@ -59,7 +59,7 @@ const speakerList = [
     profile: nosujinIcon,
     link: ' https://soojin.ro',
     git: 'https://github.com/nsoojin ',
-    summary: '',
+    summary: '싱가폴에서 그랩페이를 개발하고 있습니다.',
   }, {
     name: '도길참새',
     company: '',
