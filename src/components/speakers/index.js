@@ -76,7 +76,7 @@ const speakerList = [
     name: '엉덩숭아',
     company: '비바리퍼블리카',
     profile: sungIcon,
-    summary: '최신기술들 다 놓치고 있어 괴로운 iOS개발자입니다...',
+    summary: '최신기술을 놓치는게 괴로운 개발자입니다.',
   }, {
     name: 'AnyObject',
     company: '비바리퍼블리카',
