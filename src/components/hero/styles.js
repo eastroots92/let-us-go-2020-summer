@@ -24,7 +24,7 @@ export default {
     font-weight: 300;
     color: #f5f5f5;
     margin-bottom: 1.25rem;
-    margin-top: 10vh;
+    margin-top: 5vh;
     
     @media only screen and (min-width: 1024px) {
       font-size: 1.88rem;
