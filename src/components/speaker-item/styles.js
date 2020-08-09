@@ -13,6 +13,7 @@ export default {
     width: 92px;
     height: 92px;
     border-radius: 16px;
+    background: #ffffff;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.16);
   `,
   ContentsWrap: styled.div`
@@ -33,9 +34,9 @@ export default {
   `,
   Name: styled.h3`
     font-size: 1rem;
-    line-height: 0.88;
+    line-height: 1.2;
     color: #000000;
-    margin-right: 4px;
+    margin-right: 8px;
   `,
   Company: styled.p`
     font-size: 0.75rem;

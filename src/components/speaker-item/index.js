@@ -1,6 +1,6 @@
 import React from 'react';
 import S from './styles';
-import emailIcon from '../../resources/mail.svg';
+import email2Icon from '../../resources/mail2.svg';
 import linkIcon from '../../resources/link.svg';
 import youtubeIcon from '../../resources/youtube.svg';
 import gitIcon from '../../resources/git.svg';
@@ -49,7 +49,7 @@ export const SpeakerItem = ({ speaker, index  }) => {
               target='_blank'
               onClick={ GAClickEvent('스피커_이메일_링크', GA_ACTION.CLICK, name) }
             >
-              <img src={emailIcon} alt="이메일 아이콘" width='18px' height='18px' />
+              <img src={email2Icon} alt="이메일 아이콘" width='18px' height='18px' />
             </S.Link>
           }
           {
