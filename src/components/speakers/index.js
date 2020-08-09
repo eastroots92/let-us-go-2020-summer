@@ -18,8 +18,8 @@ const speakerList = [
     name: '야곰',
     company: '야곰',
     profile: yagomIcon,
-    blog: 'blog.yagom.net',
-    link: 'yagom.net',
+    blog: 'https://blog.yagom.net',
+    link: 'https://yagom.net',
     summary: '안녕하세요, 야곰입니다.',
   }, {
     name: 'Johnny',
