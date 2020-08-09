@@ -1,166 +1,5 @@
 import styled, { keyframes } from "styled-components"
-
-const aniBounce = keyframes`
- 0% {
-  transform: translateY(0);
- }
- 100% {
-   transform: translateY(5px);
- }
-`;
-
-const aniSpin = keyframes`
-  0% {
-    transform: rotate(0) translateZ(0);
-  }
-  100% {
-    transform: rotate(360deg) translateZ(0);
-  }
-`;
-
-const aniMoveXs = keyframes`
-  0% {
-    left: 0;
-  }
-  100% {
-    left: calc(100% - 125px);
-  }
-`;
-
-const aniMoveYs = keyframes`
-  0% {
-    top: 0;
-  }
-  100% {
-    top: calc(100vh - 125px);
-  }
-`;
-
-const aniMoveX = keyframes`
-  0% {
-    left: 0;
-  }
-  100% {
-    left: calc(100% - 187px);
-  }
-`;
-
-const aniMoveY = keyframes`
-  0% {
-    top: 0;
-  }
-  100% {
-    top: calc(100vh - 187px);
-  }
-`;
-
-const aniMoveX2s = keyframes`
-  0% {
-    right: 0;
-  }
-  100% {
-    right: calc(100% - 125px);
-  }
-`;
-
-const aniMoveY2s = keyframes`
-  0% {
-    bottom: 0;
-  }
-  100% {
-    bottom: calc(100vh - 125px);
-  }
-`;
-
-const aniMoveX2 = keyframes`
-  0% {
-    right: 0;
-  }
-  100% {
-    right: calc(100% - 187px);
-  }
-`;
-
-const aniMoveY2 = keyframes`
-  0% {
-    bottom: 0;
-  }
-  100% {
-    bottom: calc(100vh - 187px);
-  }
-`;
-
-const aniMoveX3s = keyframes`
-  0% {
-    right: 0;
-  }
-  100% {
-    right: calc(100% - 125px);
-  }
-`;
-
-const aniMoveY3s = keyframes`
-  0% {
-    top: 0;
-  }
-  100% {
-    top: calc(100vh - 125px);
-  }
-`;
-
-const aniMoveX3 = keyframes`
-  0% {
-    right: 0;
-  }
-  100% {
-    right: calc(100% - 187px);
-  }
-`;
-
-const aniMoveY3 = keyframes`
-  0% {
-    top: 0;
-  }
-  100% {
-    top: calc(100vh - 187px);
-  }
-`;
-
-const aniMoveX4 = keyframes`
-  0% {
-    right: 50%;
-  }
-  100% {
-    right: calc(100% - 89px);
-  }
-`;
-
-const aniMoveY4 = keyframes`
-  0% {
-    top: 20%;
-  }
-  100% {
-    top: calc(100vh - 89px);
-  }
-`;
-
-const aniMoveX5 = keyframes`
-  0% {
-    right: 20%;
-  }
-  100% {
-    right: calc(100% - 108px);
-  }
-`;
-
-const aniMoveY5 = keyframes`
-  0% {
-    top: 0;
-  }
-  100% {
-    top: calc(100vh - 108px);
-  }
-`;
+import { aniBounce, aniSpin, aniMoveX, aniMoveY } from "./animation"
 
 export default {
   Header: styled.header`
@@ -186,6 +25,11 @@ export default {
     color: #f5f5f5;
     margin-bottom: 1.25rem;
     margin-top: 10vh;
+    
+    @media only screen and (min-width: 1024px) {
+      font-size: 1.88rem;
+      margin-bottom: 1rem;
+    }
   `,
   Title: styled.h1`
     font-size: 2.75rem;
@@ -194,7 +38,7 @@ export default {
     line-height: 1;
     letter-spacing: 2px;
     word-break: keep-all;
-    color: #f5f5f5;
+    color: #4affcf;
     margin-bottom: 0.5rem;
     text-align: center;
     z-index: 5;
@@ -202,15 +46,24 @@ export default {
     @media only screen and (min-width: 450px) {
       margin: 2px 0 6px;
     }
+    
+    @media only screen and (min-width: 1024px) {
+      font-size: 4.44rem;
+      margin-bottom: 0.6rem;
+    }
   `,
   Description: styled.p`
     font-size: 1.375rem;
     font-weight: normal;
     font-style: oblique;
     letter-spacing: 3px;
-    color: #4affcf;
+    color: #f5f5f5;
     margin-bottom: 2rem;
     z-index: 5;
+    
+    @media only screen and (min-width: 1024px) {
+      font-size: 1.77rem;
+    }
   `,
   Contents: styled.p`
     font-size: 1rem;
@@ -218,19 +71,27 @@ export default {
     line-height: 1.25;
     z-index: 5;
     color: #f5f5f5;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.625rem;
     margin-top: 10vh;
+    
+    @media only screen and (min-width: 1024px) {
+      font-size: 1.33rem;
+    }
   `,
   SubContents: styled.p`
     font-size: 0.875rem;
     font-weight: normal;
     line-height: 1.25;
     z-index: 5;
-    color: #4affcf;
+    color: #a8fae4;
+    
+    @media only screen and (min-width: 1024px) {
+      font-size: 1.11rem;
+    }
   `,
-  Badge1: styled.img`
-    width: 107px;
-    height: 125px;
+  BadgeMask: styled.img`
+    width: 103px;
+    height: 77px;
     display: block;
     position: absolute;
     will-change: top, left;
@@ -238,82 +99,91 @@ export default {
     left: 0;
     z-index: 0;
     transform: translateZ(0);
-    animation: ${aniMoveXs} 3.5s linear 0s infinite alternate, ${aniMoveYs} 4s linear 0s infinite alternate,  ${aniSpin} 6s linear 0s infinite;
-     
-    @media only screen and (min-width: 768px) {
-      width: 160px;
-      height: 187px;
-      animation: ${aniMoveX} 7s linear 0s infinite alternate, ${aniMoveY} 8s linear 0s infinite alternate,  ${aniSpin} 9.5s linear 0s infinite;
+    animation: ${aniMoveX('103px')} 3.5s linear 0s infinite alternate, ${aniMoveY('77px')} 4s linear 0s infinite alternate,  ${aniSpin} 6s linear 0s infinite;
+    
+    @media only screen and (min-width: 1024px) {
+      width: 183px;
+      height: 135px;
+      animation: ${aniMoveX('183px')} 6s linear 0s infinite alternate, ${aniMoveY('135px')} 7s linear 0s infinite alternate,  ${aniSpin} 10s linear 0s infinite;
     }
   `,
-  Badge2: styled.img`
-    width: 121px;
-    height: 125px;
+  BadgeSwift: styled.img`
+    width: 89px;
+    height: 77px;
     display: block;
+    position: absolute;
+    will-change: bottom, left;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    animation: ${aniMoveX('89px')} 5s linear 0s infinite alternate, ${aniMoveY('77px', 'bottom')} 3.8s linear 0s infinite alternate,  ${aniSpin} 8s linear 0s infinite;
+  
+    @media only screen and (min-width: 1024px) {
+      width: 150px;
+      height: 130px;
+      animation: ${aniMoveX('150px')} 8s linear 0s infinite alternate, ${aniMoveY('130px', 'bottom')} 7s linear 0s infinite alternate,  ${aniSpin} 12s linear 0s infinite;
+    }
+  `,
+  BadgeStopUs: styled.img`
+    width: 115px;
+    height: 121px;
+    display: block;
+    position: absolute;
+    will-change: top, right;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    animation: ${aniMoveX('115px', 'right')} 3s linear 0s infinite alternate, ${aniMoveY('121px')} 3.8s linear 0s infinite alternate,  ${aniSpin} 5.5s linear 0s infinite;
+    
+    @media only screen and (min-width: 1024px) {
+      width: 191px;
+      height: 205px;
+      animation: ${aniMoveX('191px', 'right')} 6s linear 0s infinite alternate, ${aniMoveY('205px')} 7.6s linear 0s infinite alternate,  ${aniSpin} 9s linear 0s infinite;
+    }
+  `,
+  BadgeDG: styled.img`
+    display: none;
     position: absolute;
     will-change: bottom, right;
     bottom: 0;
-    right: 100%;
-    z-index: 10;
-    transform: translateZ(0);
-    animation: ${aniMoveX2s} 4.5s linear 0s infinite alternate, ${aniMoveY2s} 3s linear 0s infinite alternate, ${aniSpin} 6s linear 0s infinite;
-     
-    @media only screen and (min-width: 768px) {
-      width: 181px;
-      height: 187px;
-      animation: ${aniMoveX2} 9s linear 0s infinite alternate, ${aniMoveY2} 7s linear 0s infinite alternate, ${aniSpin} 8s linear 0s infinite;
+    right: 0;
+    z-index: 0;
+
+    @media only screen and (min-width: 1024px) {
+      display: block;
+      width: 190px;
+      height: 220px;
+      animation: ${aniMoveX('190px', 'right')} 8s linear 0s infinite alternate, ${aniMoveY('220px', 'bottom')} 10s linear 0s infinite alternate,  ${aniSpin} 11s linear 0s infinite;
     }
   `,
-  Badge3: styled.img`
-    width: 92px;
-    height: 125px;
-    display: block;
+  BadgeHJ: styled.img`
+    display: none;
     position: absolute;
     will-change: top, right;
-    top: 0;
-    right: 10%;
+    bottom: 0;
+    left: 0;
     z-index: 0;
-    transform: translateZ(0);
-    animation: ${aniMoveX3s} 5s linear 0s infinite alternate, ${aniMoveY3s} 4s linear 0s infinite alternate, ${aniSpin} 8s linear 0s infinite;
-    
-    @media only screen and (min-width: 768px) {
-      width: 138px;
-      height: 187px;
-      animation: ${aniMoveX3} 10s linear 0s infinite alternate, ${aniMoveY3} 8s linear 0s infinite alternate, ${aniSpin} 11s linear 0s infinite;
+
+    @media only screen and (min-width: 1024px) {
+      display: block;
+      width: 182px;
+      height: 245px;
+      animation: ${aniMoveX('182px')} 10s linear 0s infinite alternate, ${aniMoveY('245px', 'bottom')} 6s linear 0s infinite alternate,  ${aniSpin} 10s linear 0s infinite;
     }
   `,
-  Badge4: styled.img`
-    width: 89px;
-    height: 77px;
+  BadgeJS: styled.img`
     display: none;
     position: absolute;
     will-change: top, right;
     top: 0;
-    right: 10%;
+    right: 0;
     z-index: 0;
-    transform: translateZ(0);
-    animation: ${aniMoveX4} 6s linear 0s infinite alternate, ${aniMoveY4} 3s linear 0s infinite alternate, ${aniSpin} 8s linear 0s infinite;
-    
-    @media only screen and (min-width: 768px) {
+
+    @media only screen and (min-width: 1024px) {
       display: block;
-      animation: ${aniMoveX4} 8s linear 0s infinite alternate, ${aniMoveY4} 5s linear 0s infinite alternate, ${aniSpin} 11s linear 0s infinite;
-    }
-  `,
-  Badge5: styled.img`
-    display: none;
-    width: 108px;
-    height: 80px;
-    position: absolute;
-    will-change: top, right;
-    top: 20%;
-    right: 10%;
-    z-index: 0;
-    transform: translateZ(0);
-    animation: ${aniMoveX5} 5s linear 0s infinite alternate, ${aniMoveY5} 4s linear 0s infinite alternate, ${aniSpin} 8s linear 0s infinite;
-    
-    @media only screen and (min-width: 768px) {
-      display: block;
-      animation: ${aniMoveX5} 10s linear 0s infinite alternate, ${aniMoveY5} 8s linear 0s infinite alternate, ${aniSpin} 11s linear 0s infinite;
+      width: 209px;
+      height: 215px;
+      animation: ${aniMoveX('209px', 'right')} 8s linear 0s infinite alternate, ${aniMoveY('215px')} 9s linear 0s infinite alternate,  ${aniSpin} 9s linear 0s infinite;
     }
   `,
   ArrowWrap: styled.div`
@@ -329,6 +199,10 @@ export default {
     left: 0;
     right: 0;
     margin: 0 auto;
+    
+    @media only screen and (min-width: 1024px) {
+      bottom: 16vh;
+    }
   `,
   DownArrow: styled.img`
     margin-top: 8px;

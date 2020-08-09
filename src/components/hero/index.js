@@ -5,6 +5,8 @@ import badgeIcon2 from '../../resources/js.png';
 import badgeIcon3 from '../../resources/hj.png';
 import badgeIcon4 from '../../resources/badge2.svg';
 import badgeIcon5 from '../../resources/mask.png';
+import badgeIcon6 from '../../resources/badge.svg';
+import badgeIcon7 from '../../resources/badge3.svg';
 import { GA_ACTION, GAClickEvent } from "../../utils/ga"
 import { Timetable } from "../timetable"
 import { FloatingButton } from "../floating-button"
@@ -57,23 +59,24 @@ export const Hero = () => {
       >
         라이브 영상 링크는 당일 게시 될 예정입니다.
       </S.SubContents>
+      <S.BadgeMask src={badgeIcon5} />
+      <S.BadgeSwift src={badgeIcon7} />
+      <S.BadgeStopUs src={badgeIcon6} />
       <a
         href='https://github.com/eastroots92'
         target='_blank'
         onClick={ GAClickEvent('히어로_버튼', GA_ACTION.CLICK, '이동근') }
-      ><S.Badge1 src={badgeIcon1} /></a>
+      ><S.BadgeDG src={badgeIcon1} /></a>
       <a
         href='https://github.com/JeaSungLEE'
         target='_blank'
         onClick={ GAClickEvent('히어로_버튼', GA_ACTION.CLICK, '이재성') }
-      ><S.Badge2 src={badgeIcon2} /></a>
+      ><S.BadgeJS src={badgeIcon2} /></a>
       <a
         href='https://www.behance.net/wwwhyeongj4196'
         target='_blank'
         onClick={ GAClickEvent('히어로_버튼', GA_ACTION.CLICK, '김형진') }
-      ><S.Badge3 src={badgeIcon3} /></a>
-      <S.Badge4 src={badgeIcon4} />
-      <S.Badge5 src={badgeIcon5} />
+      ><S.BadgeHJ src={badgeIcon3} /></a>
       <S.ArrowWrap
         data-sal="slide-up"
         data-sal-delay="700"

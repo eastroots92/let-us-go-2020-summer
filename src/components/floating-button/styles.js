@@ -5,7 +5,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 240px;
+    width: 296px;
     height: 56px;
     border-radius: 28px;
     background: #00fdc3;
