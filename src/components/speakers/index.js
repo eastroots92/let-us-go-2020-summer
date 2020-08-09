@@ -11,6 +11,7 @@ import dogilIcon from '../../resources/do.png';
 import genetoryIcon from '../../resources/genetory.png';
 import sungIcon from '../../resources/sung.jpeg';
 import anyIcon from '../../resources/any.jpeg';
+import jangIcon from '../../resources/jang.png';
 
 const speakerList = [
   {
@@ -82,6 +83,12 @@ const speakerList = [
     company: '비바리퍼블리카',
     profile: anyIcon,
     summary: '개발자라는 직업이 존재하는 한 계속 할 겁니다.',
+  }, {
+    name: 'Clint Jang',
+    company: '아파트너',
+    profile: jangIcon,
+    email: 'jang.wangsu@gmail.com',
+    summary: 'Swift 개발이 좋아요',
   }
 ]
 
