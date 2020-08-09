@@ -9,15 +9,15 @@ import gomtigimIcon from '../../resources/gom.png';
 import nosujinIcon from '../../resources/no.jpg';
 import dogilIcon from '../../resources/do.png';
 import genetoryIcon from '../../resources/genetory.png';
-import sungIcon from '../../resources/sung.jpeg';
+import sungIcon from '../../resources/sung.png';
 import anyIcon from '../../resources/any.jpeg';
+import jangIcon from '../../resources/jang.png';
 
 const speakerList = [
   {
     name: '야곰',
     company: '야곰',
     profile: yagomIcon,
-    email: 'keywindow@naver.com',
     blog: 'blog.yagom.net',
     link: 'yagom.net',
     summary: '안녕하세요, 야곰입니다.',
@@ -59,7 +59,7 @@ const speakerList = [
     profile: nosujinIcon,
     link: ' https://soojin.ro',
     git: 'https://github.com/nsoojin ',
-    summary: '',
+    summary: '싱가폴에서 그랩페이를 개발하고 있습니다.',
   }, {
     name: '도길참새',
     company: '',
@@ -76,12 +76,18 @@ const speakerList = [
     name: '엉덩숭아',
     company: '비바리퍼블리카',
     profile: sungIcon,
-    summary: '최신기술들 다 놓치고 있어 괴로운 iOS개발자입니다...',
+    summary: '최신기술을 놓치는게 괴로운 개발자입니다.',
   }, {
     name: 'AnyObject',
     company: '비바리퍼블리카',
     profile: anyIcon,
     summary: '개발자라는 직업이 존재하는 한 계속 할 겁니다.',
+  }, {
+    name: 'Clint Jang',
+    company: '아파트너',
+    profile: jangIcon,
+    email: 'jang.wangsu@gmail.com',
+    summary: 'Swift 개발이 좋아요',
   }
 ]
 

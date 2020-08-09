@@ -11,7 +11,7 @@ const joinUsList = [
   }, {
     type: 'email',
     title: 'MAIL',
-    description: 'let us: GO! 활동문의 및 후원을 원하신다면<br/>언제든 메일을 보내주세요.',
+    description: 'let us: Go! 활동문의 및 후원을 원하신다면<br/>언제든 메일을 보내주세요.',
     link: 'mailto:keywindow@naver.com',
   },
 ]
