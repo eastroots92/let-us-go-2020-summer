@@ -9,7 +9,7 @@ const description = 'let us: Go! iOS 개발 세미나가 2020년 올해 처음 �
 export const Head = () => (
   <Helmet
     htmlAttributes={{ lang: 'ko' }}
-    title='Let us:GO! 2020 SUMMER'
+    title='Let us:Go! 2020 SUMMER'
     meta={[
       {
         name: 'description',
