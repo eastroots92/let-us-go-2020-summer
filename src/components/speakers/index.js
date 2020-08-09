@@ -9,7 +9,7 @@ import gomtigimIcon from '../../resources/gom.png';
 import nosujinIcon from '../../resources/no.jpg';
 import dogilIcon from '../../resources/do.png';
 import genetoryIcon from '../../resources/genetory.png';
-import sungIcon from '../../resources/sung.jpeg';
+import sungIcon from '../../resources/sung.png';
 import anyIcon from '../../resources/any.jpeg';
 import jangIcon from '../../resources/jang.png';
 
