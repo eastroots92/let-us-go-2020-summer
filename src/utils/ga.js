@@ -1,6 +1,6 @@
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 
-const sendGAEvent = (category, action = '', label = '') => () => {
+const sendGAEvent = (category, action = '', label = '') => {
   trackCustomEvent({
     category,
     action,
