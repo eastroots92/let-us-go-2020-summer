@@ -87,6 +87,8 @@ const speakerList = [
     company: '아파트너',
     profile: jangIcon,
     email: 'jang.wangsu@gmail.com',
+    blog: 'https://medium.com/@jang.wangsu',
+    git: 'https://github.com/ClintJang',
     summary: 'Swift 개발이 좋아요',
   }
 ]
