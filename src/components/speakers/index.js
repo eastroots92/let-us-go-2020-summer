@@ -4,7 +4,6 @@ import { SpeakerItem } from "../speaker-item"
 import unnyoungIcon from '../../resources/unnnyong.jpeg';
 import hyunhoIcon from '../../resources/lee.png';
 import yagomIcon from '../../resources/ya.png';
-import johnnyIcon from '../../resources/Johnny.png';
 import gomtigimIcon from '../../resources/gom.png';
 import nosujinIcon from '../../resources/no.jpg';
 import dogilIcon from '../../resources/do.png';
@@ -21,12 +20,6 @@ const speakerList = [
     blog: 'https://blog.yagom.net',
     link: 'https://yagom.net',
     summary: '안녕하세요, 야곰입니다.',
-  }, {
-    name: 'Johnny',
-    company: 'Coupang',
-    profile: johnnyIcon,
-    email: 'johnnyyun@coupang.com',
-    summary: '',
   }, {
     name: 'unnnyong',
     company: '',
