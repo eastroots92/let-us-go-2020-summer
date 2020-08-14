@@ -8,7 +8,7 @@ export default {
     width: 296px;
     height: 56px;
     border-radius: 28px;
-    background: #00fdc3;
+    background-image: linear-gradient(157deg, #10ffc0 23%, #4affcf 35%, #0cb6e4 90%);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     position: fixed;
     margin: 0 auto;
